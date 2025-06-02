@@ -15,12 +15,11 @@ Check out the live application: [Diabetes Prediction App](https://diabetes-predi
 ## Table of Contents
 1. [Overview](#overview)
 2. [Dataset](#dataset)
-3. [Model](#model)
-4. [Features](#features)
-5. [How It Works](#how-it-works)
-6. [Project Structure](#project-structure)
-7. [Explanation Methods](#explanation-methods)
-8. [Model Performance](#model-performance)
+3. [Features](#features)
+4. [How It Works](#how-it-works)
+5. [Project Structure](#project-structure)
+6. [Explanation Methods](#explanation-methods)
+7. [Model Performance](#model-performance)
 
 
 ---
