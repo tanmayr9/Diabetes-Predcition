@@ -17,15 +17,11 @@ Check out the live application: [Diabetes Prediction App](https://diabetes-predi
 2. [Dataset](#dataset)
 3. [Model](#model)
 4. [Features](#features)
-5. [Installation](#installation)
-6. [How It Works](#how-it-works)
-7. [Project Structure](#project-structure)
-8. [Explanation Methods](#explanation-methods)
-9. [Model Performance](#model-performance)
-10. [Project Motivation](#project-motivation)
-11. [Contributing](#contributing)
-12. [License](#license)
-13. [Contacts](#contacts)
+5. [How It Works](#how-it-works)
+6. [Project Structure](#project-structure)
+7. [Explanation Methods](#explanation-methods)
+8. [Model Performance](#model-performance)
+
 
 ---
 
