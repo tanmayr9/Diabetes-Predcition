@@ -87,15 +87,6 @@ The dataset contains the following details:
 #### We use only `Pregnancies`, `Glucose`, `BMI`, `Insulin`, `Age` for prediction.
 ---
 
-## Model
-You can learn more about the model in detail from [here](notebooks/Model.ipynb). The `RandomForestClassifier` model was chosen through experimentation and showed the best performance. The required hyperparameters were identified using the `optuna` optimizer. For the model to function, it needs `FeatureEngineering`, `WoEEncoding`, and `ColumnSelector` transformers, which are combined through a pipeline.
-`Cross-validation` and `ROC AUC` were used for model selection because the number of observations was small, and splitting into test/train sets would have been inaccurate.
-
-### About tarnsformers
-#### **1. FeatureEngineering**
-Transforms raw data into a format suitable for machine learning. This includes scaling, encoding, creating new features, or handling missing data.
-
-
 #### **2. WoEEncoding (Weight of Evidence Encoding)**
 Features must help to better explain the `Outcome` after WoE.
 The Weight of Evidence (WoE) for a category in a feature is calculated as:
@@ -130,31 +121,6 @@ Selects specific columns *Pregnancies*, *Glucose*, *BMI*, *PregnancyRatio*,
    - F1 Score
    - ROC AUC
 6. **Informational Section**: Learn about diabetes risk factors in the "About" section.
-
----
-
-## Installation
-
-### Prerequisites
-- Python 3.10 or above
-- Pip package manager
-
-### Steps
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/UznetDev/Diabetes-Prediction.git
-   cd Diabetes-Prediction
-   ```
-
-2. Install required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Run the application locally:
-   ```bash
-   streamlit run main.py
-   ```
 
 ---
 
@@ -228,47 +194,4 @@ Performance metrics calculated:
 
 Metrics are displayed as donut charts in the application.
 
----
 
-## Project Motivation
-
-This project was developed to:
-- Build knowledge in machine learning, especially in healthcare.
-- Gain hands-on experience with model interpretability techniques like SHAP.
-- Deploy an AI solution using **Streamlit**.
-
----
-
-## Contributing
-
-Contributions are welcome! Follow these steps:
-1. Fork the repository.
-2. Create a new feature branch:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Commit your changes and push:
-   ```bash
-   git commit -m "Feature description"
-   git push origin feature-name
-   ```
-4. Submit a pull request.
-
----
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-
-## Contacts
-
-If you have any questions or suggestions, please contact:
-- Email: uznetdev@gmail.com
-- GitHub Issues: [Issues section](https://github.com/UznetDev/Diabetes-Prediction/issues)
-- GitHub Profile: [UznetDev](https://github.com/UznetDev/)
-- Telegram: [UZNet_Dev](https://t.me/UZNet_Dev)
-- Linkedin: [Abdurakhmon Niyozaliev](https://www.linkedin.com/in/uznetdev/)
-
-
-### <i>Thank you for your interest in the project!</i>
